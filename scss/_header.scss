@@ -1,0 +1,32 @@
+#showcase {
+  margin: 0 9.6px;
+  position: relative;
+
+  div {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 16px;
+    p {
+      color: white;
+      font-size: 36px;
+      font-family: "Segoe UI", Arial, sans-serif;
+      letter-spacing: 4px;
+      margin: 10px 0 10px 0;
+      color: #f1f1f1;
+
+      span {
+        color: white;
+        background-color: #000;
+        opacity: 0.75;
+        font-size: 36px;
+        font-weight: bolder;
+        font-family: "Segoe UI", Arial, sans-serif;
+        letter-spacing: 4px;
+        padding: 8px 16px;
+      }
+    }
+  }
+}

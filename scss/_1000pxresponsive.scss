@@ -1,0 +1,14 @@
+@media (max-width: 1000px) {
+  #showcase {
+    margin: 0px !important;
+  }
+
+  #projects-images {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  #cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
